@@ -27,4 +27,7 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
+
+    <!-- String for content description of image -->
+    <string name="content_description">image for word</string>
 </resources>
