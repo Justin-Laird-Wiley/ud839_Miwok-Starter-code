@@ -11,25 +11,23 @@
         android:id="@+id/word_image"
         android:layout_width="@dimen/image_width"
         android:layout_height="@dimen/list_item_height"
-        android:minHeight="@dimen/list_item_height"
         android:background="@color/tan_background"
         android:contentDescription="@string/content_description"
+        android:minHeight="@dimen/list_item_height"
         tools:src="@mipmap/ic_launcher" />
 
     <LinearLayout
         android:id="@+id/linear_layout"
         android:layout_width="0dp"
         android:layout_height="@dimen/list_item_height"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:layout_marginStart="@dimen/activity_horizontal_margin"
-        android:gravity="center_vertical"
         android:layout_weight="4"
+        android:gravity="center_vertical"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/miwok_text_view"
             style="@style/ActivityTextStyle"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             tools:text="lutti" />
@@ -37,23 +35,19 @@
         <TextView
             android:id="@+id/default_text_view"
             style="@style/ActivityTextStyle"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="one" />
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Play"
-        android:layout_gravity="center"
-        android:id="@+id/play_button"
-        android:layout_weight="1"
-        style="@style/ActivityTextStyle"
-
-        />
-
-
+    <!--<TextView-->
+        <!--android:id="@+id/play_button"-->
+        <!--style="@style/ActivityTextStyle"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="Play" />-->
 
 </LinearLayout>

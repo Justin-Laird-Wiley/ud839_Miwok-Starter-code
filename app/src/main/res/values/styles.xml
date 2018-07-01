@@ -22,19 +22,27 @@
 
     <!-- Style for a category of vocabulary words -->
     <style name="CategoryStyle">
+
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/list_item_height</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:padding">@dimen/padding</item>
+        <item name="android:paddingLeft">@dimen/padding</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
+
     </style>
 
     <style name="ActivityTextStyle">
 
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">@android:color/white</item>
+
+
+        <!-- Padding -->
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingRight">@dimen/padding</item>
+        <item name="android:paddingStart">@dimen/padding</item>
 
     </style>
 </resources>
